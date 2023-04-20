@@ -3,11 +3,21 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
 }
+
+.header {
+  margin: 15px 100px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-logo-container {
   display: flex;
-  width: 200px;
-  margin: 20px 10px;
+  width: 300px;
   justify-content: center;
   align-items: center;
 }
@@ -15,11 +25,28 @@
 .logo-img {
   width: 80px;
   border-radius: 80px;
-  margin: 0 10px;
+  margin-right: 20px;
 }
 
 .header-name {
+  font-family: VGeneva, Tahoma, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.nav-content {
+  display: flex;
+}
+
+.nav-content li {
+  margin: 0 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
